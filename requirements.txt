@@ -1,7 +1,7 @@
 --find-links https://download.pytorch.org/whl/torch_stable.html  # Pré-compilados
 torch==2.7.0
 transformers==4.52.3
-sentencepiece==0.2.0
+sentencepiece
 pdfplumber==0.11.6
 fpdf==1.7.2
 streamlit==1.45.1
