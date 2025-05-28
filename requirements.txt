@@ -5,3 +5,4 @@ pdfplumber
 fpdf
 chardet
 transformers
+torch
