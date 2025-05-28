@@ -148,7 +148,7 @@ def reassemble_pages(translated_pages_chunks):
     Retorna lista de páginas completas (concatenando chunks).
     """
     pages_final = []
-    for page_chunks in transled_pages_chunks:
+    for page_chunks in translated_pages_chunks:  # CORREÇÃO: "transled" -> "translated"
         page_text = "\n\n".join(page_chunks)
         pages_final.append(page_text)
     return pages_final
